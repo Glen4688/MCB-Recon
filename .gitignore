@@ -9,3 +9,15 @@ env/
 
 # OS-specific
 .DS_Store
+
+# Ignore data files
+*.xlsx
+*.csv
+
+# Ignore old scripts and other temp files
+mcb_recon.py
+mcb_recon_check.py
+diagnostic_script.py
+temp_reader.py
+*.md
+~$*.xlsx
